@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+u = User.create(:username => "kingfuckbutt")
+p = Post.new
+p.title = "suckerFIsh"
+p.content = "your fucked brah"
+p.user_id = 1
+p.save
