@@ -1,4 +1,4 @@
-class UserController < ApplicationController
+class UsersController < ApplicationController
 
   def index
     @users = User.all
@@ -9,6 +9,7 @@ class UserController < ApplicationController
     @user = User.find(params[:id])
     @posts = @user.posts
   end
+
 
   def create
       @user = User.new(user_params)
