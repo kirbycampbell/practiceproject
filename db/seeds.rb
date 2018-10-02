@@ -6,9 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-u = User.create(:username => "kingfuckbutt")
+u = User.create(:username => "Mr. Nice Guy")
 p = Post.new
-p.title = "suckerFIsh"
-p.content = "your fucked brah"
+p.title = "Smooth Terminal"
+p.content = "Weeks went by, gliding throught the airport terminal. Why, Who knows..."
 p.user_id = 1
 p.save
